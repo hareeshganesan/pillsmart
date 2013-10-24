@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B2BD5C1818A5A500C949CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5B1818A5A500C949CD /* Foundation.framework */; };
+		76B2BD5E1818A5A500C949CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5D1818A5A500C949CD /* CoreGraphics.framework */; };
+		76B2BD601818A5A500C949CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5F1818A5A500C949CD /* UIKit.framework */; };
+		76B2BD661818A5A500C949CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76B2BD641818A5A500C949CD /* InfoPlist.strings */; };
+		76B2BD681818A5A500C949CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD671818A5A500C949CD /* main.m */; };
+		76B2BD6C1818A5A500C949CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD6B1818A5A500C949CD /* AppDelegate.m */; };
+		76B2BD6F1818A5A500C949CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B2BD6D1818A5A500C949CD /* Main.storyboard */; };
+		76B2BD721818A5A500C949CD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD711818A5A500C949CD /* FirstViewController.m */; };
+		76B2BD751818A5A500C949CD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD741818A5A500C949CD /* SecondViewController.m */; };
+		76B2BD771818A5A500C949CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B2BD761818A5A500C949CD /* Images.xcassets */; };
+		76B2BD7E1818A5A500C949CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD7D1818A5A500C949CD /* XCTest.framework */; };
+		76B2BD7F1818A5A500C949CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5B1818A5A500C949CD /* Foundation.framework */; };
+		76B2BD801818A5A500C949CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5F1818A5A500C949CD /* UIKit.framework */; };
+		76B2BD881818A5A500C949CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76B2BD861818A5A500C949CD /* InfoPlist.strings */; };
+		76B2BD8A1818A5A500C949CD /* PillSmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD891818A5A500C949CD /* PillSmartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B2BD811818A5A500C949CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B2BD501818A5A500C949CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B2BD571818A5A500C949CD;
+			remoteInfo = PillSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B2BD581818A5A500C949CD /* PillSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B2BD5B1818A5A500C949CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76B2BD5D1818A5A500C949CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76B2BD5F1818A5A500C949CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76B2BD631818A5A500C949CD /* PillSmart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PillSmart-Info.plist"; sourceTree = "<group>"; };
+		76B2BD651818A5A500C949CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76B2BD671818A5A500C949CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76B2BD691818A5A500C949CD /* PillSmart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PillSmart-Prefix.pch"; sourceTree = "<group>"; };
+		76B2BD6A1818A5A500C949CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76B2BD6B1818A5A500C949CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76B2BD6E1818A5A500C949CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76B2BD701818A5A500C949CD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		76B2BD711818A5A500C949CD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		76B2BD731818A5A500C949CD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		76B2BD741818A5A500C949CD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		76B2BD761818A5A500C949CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76B2BD7C1818A5A500C949CD /* PillSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B2BD7D1818A5A500C949CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		76B2BD851818A5A500C949CD /* PillSmartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PillSmartTests-Info.plist"; sourceTree = "<group>"; };
+		76B2BD871818A5A500C949CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76B2BD891818A5A500C949CD /* PillSmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PillSmartTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B2BD551818A5A500C949CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2BD5E1818A5A500C949CD /* CoreGraphics.framework in Frameworks */,
+				76B2BD601818A5A500C949CD /* UIKit.framework in Frameworks */,
+				76B2BD5C1818A5A500C949CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B2BD791818A5A500C949CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2BD7E1818A5A500C949CD /* XCTest.framework in Frameworks */,
+				76B2BD801818A5A500C949CD /* UIKit.framework in Frameworks */,
+				76B2BD7F1818A5A500C949CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B2BD4F1818A5A500C949CD = {
+			isa = PBXGroup;
+			children = (
+				76B2BD611818A5A500C949CD /* PillSmart */,
+				76B2BD831818A5A500C949CD /* PillSmartTests */,
+				76B2BD5A1818A5A500C949CD /* Frameworks */,
+				76B2BD591818A5A500C949CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76B2BD591818A5A500C949CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B2BD581818A5A500C949CD /* PillSmart.app */,
+				76B2BD7C1818A5A500C949CD /* PillSmartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B2BD5A1818A5A500C949CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76B2BD5B1818A5A500C949CD /* Foundation.framework */,
+				76B2BD5D1818A5A500C949CD /* CoreGraphics.framework */,
+				76B2BD5F1818A5A500C949CD /* UIKit.framework */,
+				76B2BD7D1818A5A500C949CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76B2BD611818A5A500C949CD /* PillSmart */ = {
+			isa = PBXGroup;
+			children = (
+				76B2BD6A1818A5A500C949CD /* AppDelegate.h */,
+				76B2BD6B1818A5A500C949CD /* AppDelegate.m */,
+				76B2BD6D1818A5A500C949CD /* Main.storyboard */,
+				76B2BD701818A5A500C949CD /* FirstViewController.h */,
+				76B2BD711818A5A500C949CD /* FirstViewController.m */,
+				76B2BD731818A5A500C949CD /* SecondViewController.h */,
+				76B2BD741818A5A500C949CD /* SecondViewController.m */,
+				76B2BD761818A5A500C949CD /* Images.xcassets */,
+				76B2BD621818A5A500C949CD /* Supporting Files */,
+			);
+			path = PillSmart;
+			sourceTree = "<group>";
+		};
+		76B2BD621818A5A500C949CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B2BD631818A5A500C949CD /* PillSmart-Info.plist */,
+				76B2BD641818A5A500C949CD /* InfoPlist.strings */,
+				76B2BD671818A5A500C949CD /* main.m */,
+				76B2BD691818A5A500C949CD /* PillSmart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B2BD831818A5A500C949CD /* PillSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B2BD891818A5A500C949CD /* PillSmartTests.m */,
+				76B2BD841818A5A500C949CD /* Supporting Files */,
+			);
+			path = PillSmartTests;
+			sourceTree = "<group>";
+		};
+		76B2BD841818A5A500C949CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76B2BD851818A5A500C949CD /* PillSmartTests-Info.plist */,
+				76B2BD861818A5A500C949CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B2BD571818A5A500C949CD /* PillSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B2BD8D1818A5A500C949CD /* Build configuration list for PBXNativeTarget "PillSmart" */;
+			buildPhases = (
+				76B2BD541818A5A500C949CD /* Sources */,
+				76B2BD551818A5A500C949CD /* Frameworks */,
+				76B2BD561818A5A500C949CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PillSmart;
+			productName = PillSmart;
+			productReference = 76B2BD581818A5A500C949CD /* PillSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B2BD7B1818A5A500C949CD /* PillSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B2BD901818A5A500C949CD /* Build configuration list for PBXNativeTarget "PillSmartTests" */;
+			buildPhases = (
+				76B2BD781818A5A500C949CD /* Sources */,
+				76B2BD791818A5A500C949CD /* Frameworks */,
+				76B2BD7A1818A5A500C949CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B2BD821818A5A500C949CD /* PBXTargetDependency */,
+			);
+			name = PillSmartTests;
+			productName = PillSmartTests;
+			productReference = 76B2BD7C1818A5A500C949CD /* PillSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B2BD501818A5A500C949CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hareesh Ganesan";
+				TargetAttributes = {
+					76B2BD7B1818A5A500C949CD = {
+						TestTargetID = 76B2BD571818A5A500C949CD;
+					};
+				};
+			};
+			buildConfigurationList = 76B2BD531818A5A500C949CD /* Build configuration list for PBXProject "PillSmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B2BD4F1818A5A500C949CD;
+			productRefGroup = 76B2BD591818A5A500C949CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B2BD571818A5A500C949CD /* PillSmart */,
+				76B2BD7B1818A5A500C949CD /* PillSmartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B2BD561818A5A500C949CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2BD771818A5A500C949CD /* Images.xcassets in Resources */,
+				76B2BD661818A5A500C949CD /* InfoPlist.strings in Resources */,
+				76B2BD6F1818A5A500C949CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B2BD7A1818A5A500C949CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2BD881818A5A500C949CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B2BD541818A5A500C949CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2BD751818A5A500C949CD /* SecondViewController.m in Sources */,
+				76B2BD6C1818A5A500C949CD /* AppDelegate.m in Sources */,
+				76B2BD721818A5A500C949CD /* FirstViewController.m in Sources */,
+				76B2BD681818A5A500C949CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B2BD781818A5A500C949CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B2BD8A1818A5A500C949CD /* PillSmartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B2BD821818A5A500C949CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B2BD571818A5A500C949CD /* PillSmart */;
+			targetProxy = 76B2BD811818A5A500C949CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76B2BD641818A5A500C949CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B2BD651818A5A500C949CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76B2BD6D1818A5A500C949CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B2BD6E1818A5A500C949CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76B2BD861818A5A500C949CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76B2BD871818A5A500C949CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76B2BD8B1818A5A500C949CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76B2BD8C1818A5A500C949CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B2BD8E1818A5A500C949CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillSmart/PillSmart-Prefix.pch";
+				INFOPLIST_FILE = "PillSmart/PillSmart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76B2BD8F1818A5A500C949CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillSmart/PillSmart-Prefix.pch";
+				INFOPLIST_FILE = "PillSmart/PillSmart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		76B2BD911818A5A500C949CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PillSmart.app/PillSmart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillSmart/PillSmart-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PillSmartTests/PillSmartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		76B2BD921818A5A500C949CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PillSmart.app/PillSmart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PillSmart/PillSmart-Prefix.pch";
+				INFOPLIST_FILE = "PillSmartTests/PillSmartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B2BD531818A5A500C949CD /* Build configuration list for PBXProject "PillSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B2BD8B1818A5A500C949CD /* Debug */,
+				76B2BD8C1818A5A500C949CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B2BD8D1818A5A500C949CD /* Build configuration list for PBXNativeTarget "PillSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B2BD8E1818A5A500C949CD /* Debug */,
+				76B2BD8F1818A5A500C949CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76B2BD901818A5A500C949CD /* Build configuration list for PBXNativeTarget "PillSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B2BD911818A5A500C949CD /* Debug */,
+				76B2BD921818A5A500C949CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76B2BD501818A5A500C949CD /* Project object */;
+}
