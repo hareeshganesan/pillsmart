@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		765928B31819F59100993235 /* CloudMine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765928B21819F59100993235 /* CloudMine.framework */; };
+		7680B73818822D480034EBBC /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680B73718822D480034EBBC /* MessageViewController.m */; };
+		7680B73B188232930034EBBC /* CMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7680B73A188232930034EBBC /* CMMessage.m */; };
+		76908E501847AE010030E2D3 /* DrugInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76908E4F1847AE010030E2D3 /* DrugInfoViewController.m */; };
+		769F5E3318248A7300CEAF04 /* CMAppUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 769F5E3218248A7300CEAF04 /* CMAppUser.m */; };
+		76A61703182EDD680060DA05 /* CMUserDrug.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A61702182EDD680060DA05 /* CMUserDrug.m */; };
+		76ADAD42183867B400BBCFA4 /* DrugTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ADAD41183867B400BBCFA4 /* DrugTableViewController.m */; };
 		76B2BD5C1818A5A500C949CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5B1818A5A500C949CD /* Foundation.framework */; };
 		76B2BD5E1818A5A500C949CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5D1818A5A500C949CD /* CoreGraphics.framework */; };
 		76B2BD601818A5A500C949CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5F1818A5A500C949CD /* UIKit.framework */; };
@@ -14,14 +21,17 @@
 		76B2BD681818A5A500C949CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD671818A5A500C949CD /* main.m */; };
 		76B2BD6C1818A5A500C949CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD6B1818A5A500C949CD /* AppDelegate.m */; };
 		76B2BD6F1818A5A500C949CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B2BD6D1818A5A500C949CD /* Main.storyboard */; };
-		76B2BD721818A5A500C949CD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD711818A5A500C949CD /* FirstViewController.m */; };
-		76B2BD751818A5A500C949CD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD741818A5A500C949CD /* SecondViewController.m */; };
+		76B2BD721818A5A500C949CD /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD711818A5A500C949CD /* ConnectionsViewController.m */; };
+		76B2BD751818A5A500C949CD /* AgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD741818A5A500C949CD /* AgendaViewController.m */; };
 		76B2BD771818A5A500C949CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B2BD761818A5A500C949CD /* Images.xcassets */; };
 		76B2BD7E1818A5A500C949CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD7D1818A5A500C949CD /* XCTest.framework */; };
 		76B2BD7F1818A5A500C949CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5B1818A5A500C949CD /* Foundation.framework */; };
 		76B2BD801818A5A500C949CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2BD5F1818A5A500C949CD /* UIKit.framework */; };
 		76B2BD881818A5A500C949CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76B2BD861818A5A500C949CD /* InfoPlist.strings */; };
 		76B2BD8A1818A5A500C949CD /* PillSmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD891818A5A500C949CD /* PillSmartTests.m */; };
+		76B2BD951818AD5000C949CD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD941818AD5000C949CD /* LoginViewController.m */; };
+		76B2BD981818C70100C949CD /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2BD971818C70100C949CD /* UserInfoViewController.m */; };
+		76C722441835E28700F2FABD /* MedicationInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C722431835E28700F2FABD /* MedicationInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		765928B21819F59100993235 /* CloudMine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CloudMine.framework; sourceTree = "<group>"; };
+		7680B73618822D480034EBBC /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		7680B73718822D480034EBBC /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		7680B739188232930034EBBC /* CMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMessage.h; sourceTree = "<group>"; };
+		7680B73A188232930034EBBC /* CMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMessage.m; sourceTree = "<group>"; };
+		76908E4E1847AE010030E2D3 /* DrugInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugInfoViewController.h; sourceTree = "<group>"; };
+		76908E4F1847AE010030E2D3 /* DrugInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugInfoViewController.m; sourceTree = "<group>"; };
+		769F5E3118248A7300CEAF04 /* CMAppUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAppUser.h; sourceTree = "<group>"; };
+		769F5E3218248A7300CEAF04 /* CMAppUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppUser.m; sourceTree = "<group>"; };
+		76A61701182EDD680060DA05 /* CMUserDrug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUserDrug.h; sourceTree = "<group>"; };
+		76A61702182EDD680060DA05 /* CMUserDrug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUserDrug.m; sourceTree = "<group>"; };
+		76ADAD40183867B400BBCFA4 /* DrugTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugTableViewController.h; sourceTree = "<group>"; };
+		76ADAD41183867B400BBCFA4 /* DrugTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugTableViewController.m; sourceTree = "<group>"; };
 		76B2BD581818A5A500C949CD /* PillSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B2BD5B1818A5A500C949CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76B2BD5D1818A5A500C949CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +69,22 @@
 		76B2BD6A1818A5A500C949CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76B2BD6B1818A5A500C949CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		76B2BD6E1818A5A500C949CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76B2BD701818A5A500C949CD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		76B2BD711818A5A500C949CD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		76B2BD731818A5A500C949CD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		76B2BD741818A5A500C949CD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		76B2BD701818A5A500C949CD /* ConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		76B2BD711818A5A500C949CD /* ConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		76B2BD731818A5A500C949CD /* AgendaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgendaViewController.h; sourceTree = "<group>"; };
+		76B2BD741818A5A500C949CD /* AgendaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaViewController.m; sourceTree = "<group>"; };
 		76B2BD761818A5A500C949CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		76B2BD7C1818A5A500C949CD /* PillSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PillSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B2BD7D1818A5A500C949CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		76B2BD851818A5A500C949CD /* PillSmartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PillSmartTests-Info.plist"; sourceTree = "<group>"; };
 		76B2BD871818A5A500C949CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76B2BD891818A5A500C949CD /* PillSmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PillSmartTests.m; sourceTree = "<group>"; };
+		76B2BD931818AD5000C949CD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		76B2BD941818AD5000C949CD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		76B2BD961818C70100C949CD /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		76B2BD971818C70100C949CD /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		76C722421835E28700F2FABD /* MedicationInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationInfoViewController.h; sourceTree = "<group>"; };
+		76C722431835E28700F2FABD /* MedicationInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +95,7 @@
 				76B2BD5E1818A5A500C949CD /* CoreGraphics.framework in Frameworks */,
 				76B2BD601818A5A500C949CD /* UIKit.framework in Frameworks */,
 				76B2BD5C1818A5A500C949CD /* Foundation.framework in Frameworks */,
+				765928B31819F59100993235 /* CloudMine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +112,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7680B73C1882329E0034EBBC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76B2BD931818AD5000C949CD /* LoginViewController.h */,
+				76B2BD941818AD5000C949CD /* LoginViewController.m */,
+				76C722421835E28700F2FABD /* MedicationInfoViewController.h */,
+				76C722431835E28700F2FABD /* MedicationInfoViewController.m */,
+				76B2BD961818C70100C949CD /* UserInfoViewController.h */,
+				76B2BD971818C70100C949CD /* UserInfoViewController.m */,
+				7680B73618822D480034EBBC /* MessageViewController.h */,
+				7680B73718822D480034EBBC /* MessageViewController.m */,
+				76B2BD701818A5A500C949CD /* ConnectionsViewController.h */,
+				76B2BD711818A5A500C949CD /* ConnectionsViewController.m */,
+				76908E4E1847AE010030E2D3 /* DrugInfoViewController.h */,
+				76908E4F1847AE010030E2D3 /* DrugInfoViewController.m */,
+				76ADAD40183867B400BBCFA4 /* DrugTableViewController.h */,
+				76ADAD41183867B400BBCFA4 /* DrugTableViewController.m */,
+				76B2BD731818A5A500C949CD /* AgendaViewController.h */,
+				76B2BD741818A5A500C949CD /* AgendaViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7680B73D188232C90034EBBC /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				769F5E3118248A7300CEAF04 /* CMAppUser.h */,
+				769F5E3218248A7300CEAF04 /* CMAppUser.m */,
+				76A61701182EDD680060DA05 /* CMUserDrug.h */,
+				76A61702182EDD680060DA05 /* CMUserDrug.m */,
+				7680B739188232930034EBBC /* CMMessage.h */,
+				7680B73A188232930034EBBC /* CMMessage.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
 		76B2BD4F1818A5A500C949CD = {
 			isa = PBXGroup;
 			children = (
+				765928B21819F59100993235 /* CloudMine.framework */,
 				76B2BD611818A5A500C949CD /* PillSmart */,
 				76B2BD831818A5A500C949CD /* PillSmartTests */,
 				76B2BD5A1818A5A500C949CD /* Frameworks */,
@@ -115,14 +182,12 @@
 		76B2BD611818A5A500C949CD /* PillSmart */ = {
 			isa = PBXGroup;
 			children = (
+				7680B73D188232C90034EBBC /* Data Model */,
+				7680B73C1882329E0034EBBC /* View Controllers */,
 				76B2BD6A1818A5A500C949CD /* AppDelegate.h */,
 				76B2BD6B1818A5A500C949CD /* AppDelegate.m */,
-				76B2BD6D1818A5A500C949CD /* Main.storyboard */,
-				76B2BD701818A5A500C949CD /* FirstViewController.h */,
-				76B2BD711818A5A500C949CD /* FirstViewController.m */,
-				76B2BD731818A5A500C949CD /* SecondViewController.h */,
-				76B2BD741818A5A500C949CD /* SecondViewController.m */,
 				76B2BD761818A5A500C949CD /* Images.xcassets */,
+				76B2BD6D1818A5A500C949CD /* Main.storyboard */,
 				76B2BD621818A5A500C949CD /* Supporting Files */,
 			);
 			path = PillSmart;
@@ -254,10 +319,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B2BD751818A5A500C949CD /* SecondViewController.m in Sources */,
+				76908E501847AE010030E2D3 /* DrugInfoViewController.m in Sources */,
+				76B2BD751818A5A500C949CD /* AgendaViewController.m in Sources */,
 				76B2BD6C1818A5A500C949CD /* AppDelegate.m in Sources */,
-				76B2BD721818A5A500C949CD /* FirstViewController.m in Sources */,
+				76B2BD721818A5A500C949CD /* ConnectionsViewController.m in Sources */,
+				76C722441835E28700F2FABD /* MedicationInfoViewController.m in Sources */,
+				7680B73B188232930034EBBC /* CMMessage.m in Sources */,
 				76B2BD681818A5A500C949CD /* main.m in Sources */,
+				7680B73818822D480034EBBC /* MessageViewController.m in Sources */,
+				769F5E3318248A7300CEAF04 /* CMAppUser.m in Sources */,
+				76B2BD951818AD5000C949CD /* LoginViewController.m in Sources */,
+				76ADAD42183867B400BBCFA4 /* DrugTableViewController.m in Sources */,
+				76B2BD981818C70100C949CD /* UserInfoViewController.m in Sources */,
+				76A61703182EDD680060DA05 /* CMUserDrug.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,9 +458,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/hareeshganesan/Desktop/PillSmart,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PillSmart/PillSmart-Prefix.pch";
 				INFOPLIST_FILE = "PillSmart/PillSmart-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -397,9 +479,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/hareeshganesan/Desktop/PillSmart,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PillSmart/PillSmart-Prefix.pch";
 				INFOPLIST_FILE = "PillSmart/PillSmart-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +556,7 @@
 				76B2BD8F1818A5A500C949CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76B2BD901818A5A500C949CD /* Build configuration list for PBXNativeTarget "PillSmartTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +565,7 @@
 				76B2BD921818A5A500C949CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

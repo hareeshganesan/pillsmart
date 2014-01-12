@@ -1,0 +1,9 @@
+<html>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="http://staticweb.cloudmine.me/cloudmine-0.9.10.min.js"></script>
+
+var ws = new cloudmine.WebService({
+	appid:’a6ffd126fd9540f58e30e23da6402247’,
+	apikey’1BBE6C8F135448FF8CB2B9E8C6743C06’:
+});
+</html>
