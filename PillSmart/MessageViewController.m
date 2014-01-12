@@ -27,7 +27,7 @@
     msg.receiver = username.text;
     msg.message = messageToSend.text;
     [store saveObject:msg additionalOptions:nil callback:^(CMObjectUploadResponse *response) {
-        NSLog([NSString stringWithFormat:@"message stored: %@",msg.message]);
+        NSLog([NSString stringWithFormat:@"message store: %@",msg.message]);
     }];
 }
 
